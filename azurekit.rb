@@ -8,7 +8,6 @@ class Azurekit < Formula
 
   def install
     libexec.install %w[bin lib]
-    bin.install_symlink libexec+"bin/azurecat"
     bin.install_symlink libexec+"bin/azuresas"
     bin.install_symlink libexec+"bin/azuresink"
   end
