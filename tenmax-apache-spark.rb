@@ -20,7 +20,7 @@ class TenmaxApacheSpark < Formula
 
   resource "core-site-template" do
     url "https://gist.githubusercontent.com/phstudy/2337c262633dc994347dfbb14503609a/raw/f1aa6809f720c1d82457b2820a313c10aca9c2e7/core-site.xml.template"
-    sha256 "9999a486833c52d2030f341dbfd72e6a97d429ff2acae21b732ca72cd29012a9"
+    sha256 "adea425f56b932a3a84f6246a50ebd6205907203b7a458ea95a1aed6037ad915"
   end
 
   def install
