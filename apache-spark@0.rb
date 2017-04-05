@@ -1,4 +1,4 @@
-class TenmaxApacheSpark < Formula
+class ApacheSparkAT0 < Formula
   desc "Engine for large-scale data processing"
   homepage "https://spark.apache.org/"
   url "https://www.apache.org/dyn/closer.lua?path=spark/spark-2.1.0/spark-2.1.0-bin-hadoop2.7.tgz"
