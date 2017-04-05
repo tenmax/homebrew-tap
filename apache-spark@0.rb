@@ -1,5 +1,5 @@
 class ApacheSparkAT0 < Formula
-  desc "Engine for large-scale data processing"
+  desc "Engine for large-scale data processing (TenMax Custom Version 2.1.0)"
   homepage "https://spark.apache.org/"
   url "https://www.apache.org/dyn/closer.lua?path=spark/spark-2.1.0/spark-2.1.0-bin-hadoop2.7.tgz"
   version "2.1.0"
@@ -7,6 +7,8 @@ class ApacheSparkAT0 < Formula
   head "https://github.com/apache/spark.git"
 
   bottle :unneeded
+
+  keg_only :versioned_formula
 
   resource "hadoop-azure" do
     url "http://central.maven.org/maven2/org/apache/hadoop/hadoop-azure/2.7.3/hadoop-azure-2.7.3.jar"
