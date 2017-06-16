@@ -1,4 +1,4 @@
-class DblkProtoKit < Formula
+class DblkProtokit < Formula
   desc "DoubleClick ADX bidrequest and bidrespone json2proto and proto2json utils."
   homepage "https://github.com/tenmax/dblk-protokit"
   url "https://github.com/tenmax/dblk-protokit/releases/download/v1.0.0/dblk-proto2json-1.0.0.zip"
