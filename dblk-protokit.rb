@@ -1,8 +1,8 @@
 class DblkProtokit < Formula
   desc "DoubleClick ADX bidrequest and bidrespone json2proto and proto2json utils."
   homepage "https://github.com/tenmax/dblk-protokit"
-  url "https://github.com/tenmax/dblk-protokit/releases/download/v1.0.0/dblk-proto2json-1.0.0.zip"
-  sha256 "85cfc7f5b98e756a8aba045a68e968a13955e4f65b684d85b2f544d2a0c90040"
+  url "https://github.com/tenmax/dblk-protokit/releases/download/v1.0.1/dblk-proto2json-1.0.1.zip"
+  sha256 "a0d1d1e37f5a57723a51b87acb8dd7259cc48abee60ba005c3ae546c0cba45e6"
 
   bottle :unneeded
 
