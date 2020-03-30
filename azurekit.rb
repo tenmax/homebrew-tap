@@ -1,8 +1,8 @@
 class Azurekit < Formula
   desc "CLI toolkit to interact with microsoft azure blob storage."
   homepage "https://github.com/tenmax/azurekit"
-  url "https://github.com/tenmax/azurekit/releases/download/v0.2.1/azurekit-0.2.1.zip"
-  sha256 "774ef64e09558746aaed342be6b16966860435fab291b10cd39e04c643232e51"
+  url "https://github.com/tenmax/azurekit/releases/download/v0.2.2/azurekit-0.2.2.zip"
+  sha256 "ed0cbad2070a5a64d89df89625c59bfb5baea2138a7c505bc25cddc405f9ae25"
 
   bottle :unneeded
 
