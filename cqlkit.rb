@@ -1,5 +1,5 @@
 class Cqlkit < Formula
-  desc "cqlkit is a CLI tool to export Cassandra query as CSV and JSON format."
+  desc "CLI tool to export Cassandra query as CSV and JSON format"
   homepage "https://github.com/tenmax/cqlkit"
   url "https://github.com/tenmax/cqlkit/releases/download/v0.3.1/cqlkit-0.3.1.zip"
   sha256 "f1d0cdbfa0780ee66c3b6e42d9eef1dd6b9c925918090ea2d4a547cb80dca4e8"
