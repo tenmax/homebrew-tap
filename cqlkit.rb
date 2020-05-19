@@ -6,6 +6,8 @@ class Cqlkit < Formula
 
   bottle :unneeded
 
+  depends_on :java => "1.8"
+
   def install
     libexec.install %w[bin lib]
     bin.install_symlink libexec+"bin/cql2cql"
@@ -14,7 +16,6 @@ class Cqlkit < Formula
   end
 
   test do
-    ENV.java_cache
     output = shell_output("#{bin}/cql2cql -v")
     assert_match /cql2cql version #{version}/, output
     output = shell_output("#{bin}/cql2csv -v")
