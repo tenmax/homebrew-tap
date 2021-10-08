@@ -9,8 +9,6 @@ class TenmaxApacheSpark < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8"
-
   resource "hadoop-azure" do
     url "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-azure/2.7.3/hadoop-azure-2.7.3.jar"
     sha256 "41ac695ff79e86d89543c85c75125431e4a473c4b564cb3cb05993647ffaa016"
