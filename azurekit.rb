@@ -4,8 +4,6 @@ class Azurekit < Formula
   url "https://github.com/tenmax/azurekit/releases/download/v0.2.2/azurekit-0.2.2.zip"
   sha256 "ed0cbad2070a5a64d89df89625c59bfb5baea2138a7c505bc25cddc405f9ae25"
 
-  bottle :unneeded
-
   def install
     libexec.install %w[bin lib]
     bin.install_symlink libexec+"bin/azurecat"

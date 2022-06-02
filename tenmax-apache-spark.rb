@@ -7,8 +7,6 @@ class TenmaxApacheSpark < Formula
   sha256 "020be52524e4df366eb974d41a6e18fcb6efcaba9a51632169e917c74267dd81"
   head "https://github.com/apache/spark.git"
 
-  bottle :unneeded
-
   resource "hadoop-azure" do
     url "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-azure/2.7.3/hadoop-azure-2.7.3.jar"
     sha256 "41ac695ff79e86d89543c85c75125431e4a473c4b564cb3cb05993647ffaa016"

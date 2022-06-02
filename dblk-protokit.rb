@@ -3,9 +3,6 @@ class DblkProtokit < Formula
   homepage "https://github.com/tenmax/dblk-protokit"
   url "https://github.com/tenmax/dblk-protokit/releases/download/v1.0.1/dblk-proto2json-1.0.1.zip"
   sha256 "a0d1d1e37f5a57723a51b87acb8dd7259cc48abee60ba005c3ae546c0cba45e6"
-
-  bottle :unneeded
-
   def install
     libexec.install %w[bin lib]
     bin.install_symlink libexec+"bin/proto2json"
